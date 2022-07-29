@@ -2,9 +2,21 @@
 
 # Structure et Contenu de Module
 
-![load_data_Module](https://github.com/Nhaila-Abdessamad/Full-text-search-docs-noCodeV/blob/main/Server/figs/load_data.PNG)
+![connection_Module](https://github.com/Nhaila-Abdessamad/Full-text-search-docs-noCodeV/blob/main/Server/figs/connection.PNG)
 
-- Class Diag
 
-# Dependences sur Modules Internes
-- Ce module depends sur le module connection.
+## Dependences sur Modules Internes
+- Ce module depends sur le module elasticsearch.
+
+
+## La fonction checkConnection()
+
+
+
+
+## La fonction resetIndex()
+
+
+
+
+## La fonction putBookMapping()
