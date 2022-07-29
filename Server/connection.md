@@ -1,4 +1,4 @@
-> ce module est un script permettant de lire le contenu de chaque livre et d'ajouter ces données à Elasticsearch.
+> ce module est un script permettant la connection avec Elasticsearch.
 
 # Structure et Contenu de Module
 
