@@ -2,6 +2,8 @@
 
 # Structure et Contenu de Module
 
+![load_data_Module](http://url/to/img.png)
+
 - Class Diag
 
 # Dependences sur Modules Internes
