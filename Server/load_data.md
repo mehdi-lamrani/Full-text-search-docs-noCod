@@ -2,7 +2,7 @@
 
 # Structure et Contenu de Module
 
-![load_data_Module](http://url/to/img.png)
+![load_data_Module](https://github.com/Nhaila-Abdessamad/Full-text-search-docs-noCodeV/blob/main/Server/figs/load_data.PNG)
 
 - Class Diag
 
