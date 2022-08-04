@@ -5,17 +5,17 @@
 ![connection_Module](https://github.com/Nhaila-Abdessamad/Full-text-search-docs-noCodeV/blob/main/Server/figs/connection.PNG)
 
 
-## Dependences sur Modules Internes
+## Dependencies  Internes
 - Ce module depends sur le module elasticsearch.
 
 
 ## La fonction checkConnection()
-
+- Cette methode est responsable sur la verification de la connection avec elasticsearch.
 
 
 
 ## La fonction resetIndex()
-
+- 
 
 
 
