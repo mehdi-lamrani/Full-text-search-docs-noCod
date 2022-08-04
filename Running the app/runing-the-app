@@ -14,84 +14,58 @@
 
 
 ## SSH to your EC2 Instance
-- Open Your CMD and make sure your working directory contains the SSH key "KPLR.pem".
-- SSH To your EC2 Instance using the following command By changing the IP adress.
+- Vos Credentials et IP respectives vous seront envoyés sur le chat
+- Une clé SSH .pem vous sera transmise sur le chat
+- username : `ec2-user`
+- adresse ip : `adresse ip fournie`
+- options de connection : clé ssh ppk
+- Se rendre dans le repertoire où vous  avez mis votre fichier pem
+  Par exemple, si vous êtes sur windows et que vous l'avez mis dans le dossier téléchargements :
 ```
-ssh -i "KPLR.pem" ec2-user@ec2-54-152-59-32.compute-1.amazonaws.com 
+cd downloads
 ```
-
-![alt text](https://github.com/Nhaila-Abdessamad/blockchain/blob/main/WS1-Truffle-Demo-Contracts/FIGs/EC2%20Log%20In.png "EC2 SSH")
-
-## Lancer Docker:
-
-1.Install NVM Through These two Command.
-
-- First Command:
-
-```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+- et puis connectez-vous à l'instance EC2 :
+ ```
+ssh -i "cle-ssh.pem" ec2-user@ec2-addresse_ip.compute-1.amazonaws.com
 ```
 
+## Acceder au répertoire du Projet :
 
-
-
-- Second Command:
+- Utiliser cette commande pour le faire.
 
 ```
-. ~/.nvm/nvm.sh
+cd Full-Text-Search-App-ES
 ```
 
 
+## Build le projet :
 
-
-2.Now you can Install NodeJs 14 through this command: 
-
-```
-nvm install 14
-```
-
-
-
-3.Verify your Node Installation with this command:
+- Utiliser cette commande pour le faire.
 
 ```
-node -v
+docker-compose up -d --build
 ```
 
-
-
-
-## install Truffle & Ganache-Cli
-
-4.Now you can Install Truffle & Ganache-Cli through this command:
+## upload data vers elasticsearch :
+- Utiliser cette commande pour le faire.
 
 ```
-npm install -g ganache-cli truffle --unsafe-perm
+docker-compose up -d --build
 ```
 
+## Re-Build le projet :
 
-
-5.Verify your Truffle Installation with this command:
-
-```
-truffle -version
-```
-
-
-6.Verify your Ganache Installation with this command:
+- Utiliser cette commande pour le faire.
 
 ```
-ganache-cli
+docker-compose up -d --build
 ```
 
+## accés à l'application :
 
+1. Ouvrir votre navigateur favorite.
+2. accéder à l'URL suivant :
 
-
-<!-- ## Resources
-- This guide was based on:
-
-- [NFT MarketPlace](https://gist.github.com/Warkanlock/d8bdd0f96aa7fa214fcb4bf800dea5b8).
-- [NFT Mix](https://github.com/PatrickAlphaC/nft-mix).
-- [Mintables](https://www.youtube.com/watch?v=CN1PJLsWujU).
-- [basic NFT mint Contract](https://www.youtube.com/watch?v=8WPzUbJyoNg).
-- [Code an NFT Marketplace like OpenSea ytb](https://www.youtube.com/watch?v=2bjVWclBD_s)-->
+```
+http://votre.adresse.IP.amazon:5601
+```
