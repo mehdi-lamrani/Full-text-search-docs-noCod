@@ -6,11 +6,14 @@
 - vous aurez accés à un autre markdown qui vous guide durant l'exploration du code source et sa documentation sur demande. 
 
 
-## Table of Contents
+## Contenu
 * [SSH to your EC2 Instance](#ssh-to-your-ec2-instance)
-* [Install NodeJs Through NVM](#install-nodejs-through-nvm)
-* [install Truffle & Ganache-Cli](#install-truffle-&-ganache-cli)
-* [Resources](#resources)
+* [Accéder au répertoire du Projet](#accéder-au-répertoire-du-projet)
+* [Build le projet](#build-le-projet)
+* [upload data vers elasticsearch](#upload-data-vers-elasticsearch)
+* [ReBuild le projet](#rebuild-le-projet)
+* [accés à l'application](#accés-à-l'application)
+
 
 
 ## SSH to your EC2 Instance
@@ -18,9 +21,9 @@
 - Une clé SSH .pem vous sera transmise sur le chat
 - username : `ec2-user`
 - adresse ip : `adresse ip fournie`
-- options de connection : clé ssh ppk
 - Se rendre dans le repertoire où vous  avez mis votre fichier pem
   Par exemple, si vous êtes sur windows et que vous l'avez mis dans le dossier téléchargements :
+
 ```
 cd downloads
 ```
