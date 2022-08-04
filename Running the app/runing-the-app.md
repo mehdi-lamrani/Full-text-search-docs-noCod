@@ -32,6 +32,21 @@ cd downloads
 ssh -i "cle-ssh.pem" ec2-user@ec2-addresse_ip.compute-1.amazonaws.com
 ```
 
+
+## Arret des packages interferant:
+
+- executer les deux commandes suivants.
+
+
+```
+sudo -i service elasticsearch stop
+```
+
+```
+sudo -i service kibana stop
+```
+
+
 ## Acceder au répertoire du Projet 
 
 - Utiliser cette commande pour le faire.
@@ -39,6 +54,7 @@ ssh -i "cle-ssh.pem" ec2-user@ec2-addresse_ip.compute-1.amazonaws.com
 ```
 cd Full-Text-Search-App-ES
 ```
+
 
 
 ## Build le projet 
