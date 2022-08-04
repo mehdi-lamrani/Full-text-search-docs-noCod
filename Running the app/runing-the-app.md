@@ -32,7 +32,7 @@ cd downloads
 ssh -i "cle-ssh.pem" ec2-user@ec2-addresse_ip.compute-1.amazonaws.com
 ```
 
-## Acceder au répertoire du Projet :
+## Acceder au répertoire du Projet 
 
 - Utiliser cette commande pour le faire.
 
@@ -41,7 +41,7 @@ cd Full-Text-Search-App-ES
 ```
 
 
-## Build le projet :
+## Build le projet 
 
 - Utiliser cette commande pour le faire.
 
@@ -49,14 +49,14 @@ cd Full-Text-Search-App-ES
 docker-compose up -d --build
 ```
 
-## upload data vers elasticsearch :
+## upload data vers elasticsearch 
 - Utiliser cette commande pour le faire.
 
 ```
 docker-compose up -d --build
 ```
 
-## Re-Build le projet :
+## Re-Build le projet 
 
 - Utiliser cette commande pour le faire.
 
@@ -64,7 +64,7 @@ docker-compose up -d --build
 docker-compose up -d --build
 ```
 
-## accés à l'application :
+## accés à l'application 
 
 1. Ouvrir votre navigateur favorite.
 2. accéder à l'URL suivant :
