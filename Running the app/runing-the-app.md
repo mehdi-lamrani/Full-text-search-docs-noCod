@@ -67,7 +67,7 @@ cd Full-Text-Search-App-ES
 
 
 
-## Build le projet 
+## Build Docker & Run du Projet
 
 - Utiliser cette commande pour le faire.
 
