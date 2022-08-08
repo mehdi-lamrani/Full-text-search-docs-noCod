@@ -80,7 +80,7 @@ cd Full-Text-Search-App-ES
 sudo /usr/local/bin/docker-compose up -d --build
 ```
 
-## upload data vers elasticsearch 
+## Upload des Books vers elasticsearch 
 - Utiliser cette commande pour le faire.
 
 ```
