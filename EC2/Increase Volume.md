@@ -29,7 +29,7 @@ lsblk
 ![df-before](https://user-images.githubusercontent.com/28993140/183418765-8000a50d-816a-442a-9731-2f1808b7718d.png)
 
 ```console
-sudo df -h /
+sudo df -h
 ```
 
 ### File System - Grow :
@@ -45,5 +45,5 @@ sudo xfs_growfs /
 ![df-after](https://user-images.githubusercontent.com/28993140/183419191-65734ffc-469d-4737-8cfb-6d80cbc27d41.png)
 
 ```console
-sudo df -hs /
+sudo df -h
 ```
