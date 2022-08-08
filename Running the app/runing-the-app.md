@@ -84,7 +84,7 @@ sudo /usr/local/bin/docker-compose up -d --build
 - Utiliser cette commande pour le faire.
 
 ```
-docker exec gs-api "node" "server/load_data.js"
+sudo docker exec gs-api "node" "server/load_data.js"
 ```
 
 ## Re-Build le projet 
