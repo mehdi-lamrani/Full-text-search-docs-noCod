@@ -77,7 +77,7 @@ cd Full-Text-Search-App-ES
 - Utiliser cette commande pour le faire.
 
 ```
-docker-compose up -d --build
+sudo /usr/local/bin/docker-compose up -d --build
 ```
 
 ## upload data vers elasticsearch 
@@ -92,7 +92,7 @@ docker exec gs-api "node" "server/load_data.js"
 - Utiliser cette commande pour le faire.
 
 ```
-docker-compose up -d --build
+sudo /usr/local/bin/docker-compose up -d --build
 ```
 
 ## accés à l'application 
