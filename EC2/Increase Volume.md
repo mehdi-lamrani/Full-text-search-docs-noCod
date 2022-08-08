@@ -26,7 +26,7 @@ lsblk
 ### File System - Before :
 
 ```console
-xfs_growfs /
+sudo xfs_growfs /
 ```
 ![df-before](https://user-images.githubusercontent.com/28993140/183418765-8000a50d-816a-442a-9731-2f1808b7718d.png)
 
