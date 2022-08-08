@@ -97,9 +97,15 @@ sudo /usr/local/bin/docker-compose up -d --build
 
 ## accés à l'application 
 
-1. Ouvrir votre navigateur favorite.
-2. accéder à l'URL suivant :
+1. Ouvrir votre navigateur favori
+2. accéder à l'URL suivante :
 
+- APPLI WEB
+```
+http://votre.adresse.IP.amazon:8080
+```
+
+- KIBANA 
 ```
 http://votre.adresse.IP.amazon:5601
 ```
