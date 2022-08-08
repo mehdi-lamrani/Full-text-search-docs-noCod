@@ -38,7 +38,7 @@ Ce script met a jour votre IP publique dans l'application
 
 ```console
 cd /tmp
-chmod +x ip.sh
+sudo chmod +x ip.sh
 ./ip.sh
 ```
 
