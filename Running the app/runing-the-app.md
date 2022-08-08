@@ -32,6 +32,16 @@ cd downloads
 ssh -i "cle-ssh.pem" ec2-user@ec2-addresse_ip.compute-1.amazonaws.com
 ```
 
+## Execution du Script IP
+
+Ce script met a jour votre IP publique dans l'application 
+
+```console
+cd /tmp
+chmod +x ip.sh
+./ip.sh
+```
+
 
 ## Arret des packages interferant:
 
