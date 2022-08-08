@@ -56,6 +56,11 @@ sudo -i service elasticsearch stop
 sudo -i service kibana stop
 ```
 
+## Démarrage de Docker
+
+```console
+sudo service docker start
+```
 
 ## Acceder au répertoire du Projet 
 
